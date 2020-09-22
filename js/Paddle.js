@@ -20,6 +20,7 @@ class Paddle {
   
     display() {
         fill(217, 69, 95);
+        noStroke();
         rect(this.x, this.y, this.width, this.height);
     }
   

@@ -8,6 +8,7 @@ class Score {
   
   
   display() {
+    
     textSize(40);
     textAlign(CENTER);
   	text(this.score, this.x, 60);

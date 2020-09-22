@@ -41,6 +41,7 @@ class Ball {
     }
     display() {
         ellipse(this.x, this.y, this.r * 2, this.r * 2);
+        noStroke();
         fill(128,255,0);
     }
   

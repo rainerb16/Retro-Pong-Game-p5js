@@ -6,7 +6,7 @@ let computerScore;
 
 
 function setup() {
-  createCanvas(900, 700);
+  createCanvas(800, 700);
   playerPaddle = new Paddle(26);
   computerPaddle = new Paddle(width - 48);
   ball = new Ball();
@@ -17,9 +17,9 @@ function setup() {
 
 function draw() {
   background(0);
+  strokeWeight(3);
   playerPaddle.display();
   computerPaddle.display();
-  
   playerPaddle.update();
   computerPaddle.update();
   
