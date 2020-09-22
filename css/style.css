@@ -1,4 +1,10 @@
 /* MOBILE */
+*, html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  }
+
 canvas {
   display: none;
 }
@@ -36,6 +42,7 @@ body {
   *, html, body {
     margin: 0;
     padding: 0;
+    background-color: black;
     }
 
   body {
