@@ -45,6 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
+    font-family: 'Press Start 2P', cursive;
   }
 
   #mobile-warning {
