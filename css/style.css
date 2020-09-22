@@ -28,6 +28,7 @@ body {
   display: none;
 }
 
+
 /* TABLET */
 @media only screen and (min-width: 670px) {
   canvas {
@@ -69,5 +70,4 @@ body {
   canvas {
     display: block;
   }
-
 }
